@@ -1,8 +1,17 @@
 # Cryptocurrencies
 
 ## Project Objective
+Using the cryptocurrency dataset, cleanse the data and perform unsupervised machine learning tot identify any trends in the Total Coins Mined and Total Coin Supply.
 
 ## Approach Outline
+Cleansing
+- `get_dummies()` to transfer all variables from string to numeric values
+- StandardScaler `fit_transform()` to standardize machine learning features
+- drop all rows to obtain only coins currently being traded
+
+Modelling
+- Use Elbow Curve to determine ideal K-means value
+- Use the PCA algorithm with 3 factors
 
 ## Visualization of Results
 
